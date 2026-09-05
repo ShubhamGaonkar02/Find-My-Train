@@ -1,0 +1,1125 @@
+[
+  {
+    "id": "12001",
+    "trainName": "Shatabdi Express",
+    "trainNumber": "12001",
+    "source": "NDLS",
+    "destination": "BPL",
+    "duration": "08:30",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "06:00", "departureTime": "06:15", "platform": 1, "distance": 0 },
+      { "stationCode": "AGC", "stationName": "Agra Cantt", "arrivalTime": "08:00", "departureTime": "08:05", "platform": 2, "distance": 195 },
+      { "stationCode": "GWL", "stationName": "Gwalior Jn", "arrivalTime": "09:30", "departureTime": "09:35", "platform": 1, "distance": 313 },
+      { "stationCode": "VGLJ", "stationName": "VGL Jhansi Jn", "arrivalTime": "11:00", "departureTime": "11:10", "platform": 3, "distance": 410 },
+      { "stationCode": "BPL", "stationName": "Bhopal Jn", "arrivalTime": "14:30", "departureTime": "14:45", "platform": 1, "distance": 702 }
+    ]
+  },
+  {
+    "id": "12002",
+    "trainName": "Shatabdi Return",
+    "trainNumber": "12002",
+    "source": "BPL",
+    "destination": "NDLS",
+    "duration": "08:30",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "BPL", "stationName": "Bhopal Jn", "arrivalTime": "15:00", "departureTime": "15:15", "platform": 1, "distance": 0 },
+      { "stationCode": "VGLJ", "stationName": "VGL Jhansi Jn", "arrivalTime": "18:40", "departureTime": "18:50", "platform": 3, "distance": 292 },
+      { "stationCode": "GWL", "stationName": "Gwalior Jn", "arrivalTime": "20:00", "departureTime": "20:05", "platform": 1, "distance": 389 },
+      { "stationCode": "AGC", "stationName": "Agra Cantt", "arrivalTime": "21:30", "departureTime": "21:35", "platform": 2, "distance": 507 },
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "23:30", "departureTime": "23:30", "platform": 1, "distance": 702 }
+    ]
+  },
+  {
+    "id": "12951",
+    "trainName": "Mumbai Rajdhani",
+    "trainNumber": "12951",
+    "source": "MMCT",
+    "destination": "NDLS",
+    "duration": "15:40",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "MMCT", "stationName": "Mumbai Central", "arrivalTime": "17:00", "departureTime": "17:00", "platform": 1, "distance": 0 },
+      { "stationCode": "BVI", "stationName": "Borivali", "arrivalTime": "17:22", "departureTime": "17:24", "platform": 6, "distance": 30 },
+      { "stationCode": "ST", "stationName": "Surat", "arrivalTime": "19:43", "departureTime": "19:48", "platform": 1, "distance": 263 },
+      { "stationCode": "BRC", "stationName": "Vadodara Jn", "arrivalTime": "21:03", "departureTime": "21:13", "platform": 2, "distance": 393 },
+      { "stationCode": "RTM", "stationName": "Ratlam Jn", "arrivalTime": "00:25", "departureTime": "00:28", "platform": 5, "distance": 654 },
+      { "stationCode": "KOTA", "stationName": "Kota Jn", "arrivalTime": "03:15", "departureTime": "03:20", "platform": 1, "distance": 921 },
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "08:32", "departureTime": "08:32", "platform": 3, "distance": 1386 }
+    ]
+  },
+  {
+    "id": "12952",
+    "trainName": "Mumbai Rajdhani Return",
+    "trainNumber": "12952",
+    "source": "NDLS",
+    "destination": "MMCT",
+    "duration": "15:40",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "16:25", "departureTime": "16:25", "platform": 3, "distance": 0 },
+      { "stationCode": "KOTA", "stationName": "Kota Jn", "arrivalTime": "20:55", "departureTime": "21:05", "platform": 2, "distance": 465 },
+      { "stationCode": "RTM", "stationName": "Ratlam Jn", "arrivalTime": "00:15", "departureTime": "00:18", "platform": 4, "distance": 732 },
+      { "stationCode": "BRC", "stationName": "Vadodara Jn", "arrivalTime": "03:40", "departureTime": "03:50", "platform": 1, "distance": 993 },
+      { "stationCode": "ST", "stationName": "Surat", "arrivalTime": "05:13", "departureTime": "05:18", "platform": 2, "distance": 1123 },
+      { "stationCode": "BVI", "stationName": "Borivali", "arrivalTime": "07:42", "departureTime": "07:44", "platform": 5, "distance": 1356 },
+      { "stationCode": "MMCT", "stationName": "Mumbai Central", "arrivalTime": "08:15", "departureTime": "08:15", "platform": 1, "distance": 1386 }
+    ]
+  },
+  {
+    "id": "12229",
+    "trainName": "Lucknow Mail",
+    "trainNumber": "12229",
+    "source": "LJN",
+    "destination": "NDLS",
+    "duration": "09:05",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "LJN", "stationName": "Lucknow Ne", "arrivalTime": "22:00", "departureTime": "22:00", "platform": 1, "distance": 0 },
+      { "stationCode": "HRI", "stationName": "Hardoi", "arrivalTime": "23:25", "departureTime": "23:27", "platform": 1, "distance": 102 },
+      { "stationCode": "SPN", "stationName": "Shahjehanpur", "arrivalTime": "00:25", "departureTime": "00:27", "platform": 3, "distance": 165 },
+      { "stationCode": "BE", "stationName": "Bareilly Jn", "arrivalTime": "01:25", "departureTime": "01:28", "platform": 2, "distance": 236 },
+      { "stationCode": "MB", "stationName": "Moradabad Jn", "arrivalTime": "03:00", "departureTime": "03:08", "platform": 5, "distance": 326 },
+      { "stationCode": "HPU", "stationName": "Hapur", "arrivalTime": "04:30", "departureTime": "04:32", "platform": 1, "distance": 430 },
+      { "stationCode": "GZB", "stationName": "Ghaziabad", "arrivalTime": "05:25", "departureTime": "05:27", "platform": 3, "distance": 467 },
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "06:05", "departureTime": "06:05", "platform": 9, "distance": 492 }
+    ]
+  },
+  {
+    "id": "12301",
+    "trainName": "Howrah Rajdhani",
+    "trainNumber": "12301",
+    "source": "HWH",
+    "destination": "NDLS",
+    "duration": "17:10",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "HWH", "stationName": "Howrah Jn", "arrivalTime": "16:50", "departureTime": "16:50", "platform": 9, "distance": 0 },
+      { "stationCode": "ASN", "stationName": "Asansol Jn", "arrivalTime": "18:47", "departureTime": "18:49", "platform": 4, "distance": 200 },
+      { "stationCode": "DHN", "stationName": "Dhanbad Jn", "arrivalTime": "19:55", "departureTime": "20:00", "platform": 3, "distance": 259 },
+      { "stationCode": "PNME", "stationName": "Parasnath", "arrivalTime": "20:30", "departureTime": "20:32", "platform": 3, "distance": 306 },
+      { "stationCode": "GAYA", "stationName": "Gaya Jn", "arrivalTime": "22:32", "departureTime": "22:35", "platform": 2, "distance": 458 },
+      { "stationCode": "DDU", "stationName": "Pt Deen Dayal Upadhyaya Jn", "arrivalTime": "00:43", "departureTime": "00:50", "platform": 7, "distance": 661 },
+      { "stationCode": "PRYJ", "stationName": "Prayagraj Jn", "arrivalTime": "02:43", "departureTime": "02:45", "platform": 1, "distance": 813 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "04:45", "departureTime": "04:50", "platform": 1, "distance": 1008 },
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "10:00", "departureTime": "10:00", "platform": 1, "distance": 1454 }
+    ]
+  },
+  {
+    "id": "12302",
+    "trainName": "Howrah Rajdhani Return",
+    "trainNumber": "12302",
+    "source": "NDLS",
+    "destination": "HWH",
+    "duration": "17:10",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "16:50", "departureTime": "16:50", "platform": 1, "distance": 0 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "21:32", "departureTime": "21:37", "platform": 4, "distance": 440 },
+      { "stationCode": "PRYJ", "stationName": "Prayagraj Jn", "arrivalTime": "23:43", "departureTime": "23:45", "platform": 1, "distance": 634 },
+      { "stationCode": "DDU", "stationName": "Pt Deen Dayal Upadhyaya Jn", "arrivalTime": "01:42", "departureTime": "01:52", "platform": 7, "distance": 786 },
+      { "stationCode": "GAYA", "stationName": "Gaya Jn", "arrivalTime": "03:55", "departureTime": "03:58", "platform": 2, "distance": 989 },
+      { "stationCode": "PNME", "stationName": "Parasnath", "arrivalTime": "05:43", "departureTime": "05:45", "platform": 3, "distance": 1141 },
+      { "stationCode": "DHN", "stationName": "Dhanbad Jn", "arrivalTime": "06:33", "departureTime": "06:38", "platform": 1, "distance": 1195 },
+      { "stationCode": "ASN", "stationName": "Asansol Jn", "arrivalTime": "07:31", "departureTime": "07:33", "platform": 4, "distance": 1254 },
+      { "stationCode": "HWH", "stationName": "Howrah Jn", "arrivalTime": "09:55", "departureTime": "09:55", "platform": 9, "distance": 1454 }
+    ]
+  },
+  {
+    "id": "12313",
+    "trainName": "Sealdah Rajdhani",
+    "trainNumber": "12313",
+    "source": "SDAH",
+    "destination": "NDLS",
+    "duration": "17:30",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "SDAH", "stationName": "Sealdah", "arrivalTime": "16:50", "departureTime": "16:50", "platform": 9, "distance": 0 },
+      { "stationCode": "DGR", "stationName": "Durgapur", "arrivalTime": "18:38", "departureTime": "18:40", "platform": 3, "distance": 165 },
+      { "stationCode": "ASN", "stationName": "Asansol Jn", "arrivalTime": "19:06", "departureTime": "19:10", "platform": 4, "distance": 207 },
+      { "stationCode": "DHN", "stationName": "Dhanbad Jn", "arrivalTime": "20:20", "departureTime": "20:25", "platform": 3, "distance": 266 },
+      { "stationCode": "GAYA", "stationName": "Gaya Jn", "arrivalTime": "22:57", "departureTime": "23:00", "platform": 2, "distance": 464 },
+      { "stationCode": "DDU", "stationName": "Pt Deen Dayal Upadhyaya Jn", "arrivalTime": "01:13", "departureTime": "01:20", "platform": 7, "distance": 667 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "05:15", "departureTime": "05:20", "platform": 2, "distance": 1015 },
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "10:50", "departureTime": "10:50", "platform": 1, "distance": 1455 }
+    ]
+  },
+  {
+    "id": "12314",
+    "trainName": "Sealdah Rajdhani Return",
+    "trainNumber": "12314",
+    "source": "NDLS",
+    "destination": "SDAH",
+    "duration": "17:30",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "16:30", "departureTime": "16:30", "platform": 1, "distance": 0 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "21:15", "departureTime": "21:20", "platform": 4, "distance": 440 },
+      { "stationCode": "DDU", "stationName": "Pt Deen Dayal Upadhyaya Jn", "arrivalTime": "01:13", "departureTime": "01:23", "platform": 7, "distance": 788 },
+      { "stationCode": "GAYA", "stationName": "Gaya Jn", "arrivalTime": "03:22", "departureTime": "03:25", "platform": 2, "distance": 991 },
+      { "stationCode": "DHN", "stationName": "Dhanbad Jn", "arrivalTime": "05:58", "departureTime": "06:03", "platform": 1, "distance": 1189 },
+      { "stationCode": "ASN", "stationName": "Asansol Jn", "arrivalTime": "07:07", "departureTime": "07:09", "platform": 4, "distance": 1248 },
+      { "stationCode": "DGR", "stationName": "Durgapur", "arrivalTime": "07:37", "departureTime": "07:39", "platform": 3, "distance": 1290 },
+      { "stationCode": "SDAH", "stationName": "Sealdah", "arrivalTime": "10:10", "departureTime": "10:10", "platform": 9, "distance": 1455 }
+    ]
+  },
+  {
+    "id": "12434",
+    "trainName": "Chennai Rajdhani",
+    "trainNumber": "12434",
+    "source": "NZM",
+    "destination": "MAS",
+    "duration": "28:30",
+    "days": ["W", "F"],
+    "route": [
+      { "stationCode": "NZM", "stationName": "Hazrat Nizamuddin", "arrivalTime": "15:35", "departureTime": "15:35", "platform": 4, "distance": 0 },
+      { "stationCode": "AGC", "stationName": "Agra Cantt", "arrivalTime": "17:25", "departureTime": "17:27", "platform": 1, "distance": 188 },
+      { "stationCode": "GWL", "stationName": "Gwalior Jn", "arrivalTime": "18:53", "departureTime": "18:55", "platform": 1, "distance": 306 },
+      { "stationCode": "VGLJ", "stationName": "VGL Jhansi Jn", "arrivalTime": "20:10", "departureTime": "20:15", "platform": 1, "distance": 403 },
+      { "stationCode": "BPL", "stationName": "Bhopal Jn", "arrivalTime": "23:30", "departureTime": "23:40", "platform": 1, "distance": 695 },
+      { "stationCode": "NGP", "stationName": "Nagpur Jn", "arrivalTime": "05:05", "departureTime": "05:10", "platform": 2, "distance": 1085 },
+      { "stationCode": "BPQ", "stationName": "Balharshah", "arrivalTime": "08:00", "departureTime": "08:05", "platform": 1, "distance": 1293 },
+      { "stationCode": "WL", "stationName": "Warangal", "arrivalTime": "11:14", "departureTime": "11:15", "platform": 2, "distance": 1537 },
+      { "stationCode": "BZA", "stationName": "Vijayawada Jn", "arrivalTime": "14:20", "departureTime": "14:30", "platform": 1, "distance": 1744 },
+      { "stationCode": "MAS", "stationName": "MGR Chennai Central", "arrivalTime": "20:50", "departureTime": "20:50", "platform": 2, "distance": 2180 }
+    ]
+  },
+  {
+    "id": "12433",
+    "trainName": "Chennai Rajdhani Return",
+    "trainNumber": "12433",
+    "source": "MAS",
+    "destination": "NZM",
+    "duration": "28:30",
+    "days": ["F", "S"],
+    "route": [
+      { "stationCode": "MAS", "stationName": "MGR Chennai Central", "arrivalTime": "06:05", "departureTime": "06:05", "platform": 2, "distance": 0 },
+      { "stationCode": "BZA", "stationName": "Vijayawada Jn", "arrivalTime": "11:30", "departureTime": "11:40", "platform": 1, "distance": 431 },
+      { "stationCode": "WL", "stationName": "Warangal", "arrivalTime": "14:18", "departureTime": "14:20", "platform": 2, "distance": 638 },
+      { "stationCode": "BPQ", "stationName": "Balharshah", "arrivalTime": "17:40", "departureTime": "17:45", "platform": 1, "distance": 881 },
+      { "stationCode": "NGP", "stationName": "Nagpur Jn", "arrivalTime": "20:25", "departureTime": "20:30", "platform": 1, "distance": 1090 },
+      { "stationCode": "BPL", "stationName": "Bhopal Jn", "arrivalTime": "02:05", "departureTime": "02:15", "platform": 1, "distance": 1480 },
+      { "stationCode": "VGLJ", "stationName": "VGL Jhansi Jn", "arrivalTime": "05:20", "departureTime": "05:25", "platform": 4, "distance": 1772 },
+      { "stationCode": "GWL", "stationName": "Gwalior Jn", "arrivalTime": "06:23", "departureTime": "06:25", "platform": 1, "distance": 1869 },
+      { "stationCode": "AGC", "stationName": "Agra Cantt", "arrivalTime": "07:50", "departureTime": "07:52", "platform": 1, "distance": 1987 },
+      { "stationCode": "NZM", "stationName": "Hazrat Nizamuddin", "arrivalTime": "10:30", "departureTime": "10:30", "platform": 4, "distance": 2180 }
+    ]
+  },
+  {
+    "id": "22691",
+    "trainName": "Bangalore Rajdhani",
+    "trainNumber": "22691",
+    "source": "SBC",
+    "destination": "NZM",
+    "duration": "33:50",
+    "days": ["M", "W", "T", "S", "S"],
+    "route": [
+      { "stationCode": "SBC", "stationName": "KSR Bengaluru", "arrivalTime": "20:00", "departureTime": "20:00", "platform": 8, "distance": 0 },
+      { "stationCode": "SSPN", "stationName": "Sri Sathya Sai Prashanthi Nilayam", "arrivalTime": "22:23", "departureTime": "22:25", "platform": 1, "distance": 159 },
+      { "stationCode": "GTL", "stationName": "Guntakal Junction", "arrivalTime": "00:45", "departureTime": "00:50", "platform": 3, "distance": 293 },
+      { "stationCode": "RC", "stationName": "Raichur", "arrivalTime": "02:23", "departureTime": "02:25", "platform": 1, "distance": 415 },
+      { "stationCode": "YG", "stationName": "Yadgir", "arrivalTime": "03:19", "departureTime": "03:20", "platform": 1, "distance": 484 },
+      { "stationCode": "SEM", "stationName": "Sedam", "arrivalTime": "04:30", "departureTime": "04:31", "platform": 1, "distance": 559 },
+      { "stationCode": "SC", "stationName": "Secunderabad Jn", "arrivalTime": "07:05", "departureTime": "07:15", "platform": 1, "distance": 705 },
+      { "stationCode": "KZJ", "stationName": "Kazipet Jn", "arrivalTime": "08:48", "departureTime": "08:50", "platform": 1, "distance": 837 },
+      { "stationCode": "BPQ", "stationName": "Balharshah", "arrivalTime": "12:00", "departureTime": "12:05", "platform": 1, "distance": 1072 },
+      { "stationCode": "NGP", "stationName": "Nagpur Jn", "arrivalTime": "14:55", "departureTime": "15:00", "platform": 1, "distance": 1280 },
+      { "stationCode": "ET", "stationName": "Itarsi Jn", "arrivalTime": "19:16", "departureTime": "19:18", "platform": 1, "distance": 1578 },
+      { "stationCode": "BPL", "stationName": "Bhopal Jn", "arrivalTime": "20:50", "departureTime": "21:00", "platform": 2, "distance": 1670 },
+      { "stationCode": "VGLJ", "stationName": "VGL Jhansi Jn", "arrivalTime": "00:16", "departureTime": "00:21", "platform": 1, "distance": 1962 },
+      { "stationCode": "GWL", "stationName": "Gwalior Jn", "arrivalTime": "01:19", "departureTime": "01:21", "platform": 1, "distance": 2059 },
+      { "stationCode": "AGC", "stationName": "Agra Cantt", "arrivalTime": "02:55", "departureTime": "02:57", "platform": 1, "distance": 2178 },
+      { "stationCode": "NZM", "stationName": "Hazrat Nizamuddin", "arrivalTime": "05:50", "departureTime": "05:50", "platform": 4, "distance": 2365 }
+    ]
+  },
+  {
+    "id": "22692",
+    "trainName": "Bangalore Rajdhani Return",
+    "trainNumber": "22692",
+    "source": "NZM",
+    "destination": "SBC",
+    "duration": "33:50",
+    "days": ["M", "T", "T", "F", "S"],
+    "route": [
+      { "stationCode": "NZM", "stationName": "Hazrat Nizamuddin", "arrivalTime": "19:50", "departureTime": "19:50", "platform": 4, "distance": 0 },
+      { "stationCode": "AGC", "stationName": "Agra Cantt", "arrivalTime": "21:45", "departureTime": "21:47", "platform": 1, "distance": 188 },
+      { "stationCode": "GWL", "stationName": "Gwalior Jn", "arrivalTime": "23:23", "departureTime": "23:25", "platform": 1, "distance": 306 },
+      { "stationCode": "VGLJ", "stationName": "VGL Jhansi Jn", "arrivalTime": "00:30", "departureTime": "00:35", "platform": 1, "distance": 403 },
+      { "stationCode": "BPL", "stationName": "Bhopal Jn", "arrivalTime": "03:45", "departureTime": "03:55", "platform": 1, "distance": 695 },
+      { "stationCode": "ET", "stationName": "Itarsi Jn", "arrivalTime": "05:23", "departureTime": "05:25", "platform": 1, "distance": 787 },
+      { "stationCode": "NGP", "stationName": "Nagpur Jn", "arrivalTime": "09:25", "departureTime": "09:30", "platform": 2, "distance": 1085 },
+      { "stationCode": "BPQ", "stationName": "Balharshah", "arrivalTime": "12:15", "departureTime": "12:20", "platform": 1, "distance": 1293 },
+      { "stationCode": "KZJ", "stationName": "Kazipet Jn", "arrivalTime": "15:08", "departureTime": "15:10", "platform": 1, "distance": 1528 },
+      { "stationCode": "SC", "stationName": "Secunderabad Jn", "arrivalTime": "17:10", "departureTime": "17:25", "platform": 1, "distance": 1660 },
+      { "stationCode": "SEM", "stationName": "Sedam", "arrivalTime": "19:29", "departureTime": "19:30", "platform": 1, "distance": 1806 },
+      { "stationCode": "YG", "stationName": "Yadgir", "arrivalTime": "20:39", "departureTime": "20:40", "platform": 1, "distance": 1881 },
+      { "stationCode": "RC", "stationName": "Raichur", "arrivalTime": "21:38", "departureTime": "21:40", "platform": 1, "distance": 1950 },
+      { "stationCode": "GTL", "stationName": "Guntakal Junction", "arrivalTime": "23:25", "departureTime": "23:30", "platform": 3, "distance": 2072 },
+      { "stationCode": "SSPN", "stationName": "Sri Sathya Sai Prashanthi Nilayam", "arrivalTime": "02:03", "departureTime": "02:05", "platform": 1, "distance": 2206 },
+      { "stationCode": "SBC", "stationName": "KSR Bengaluru", "arrivalTime": "05:20", "departureTime": "05:20", "platform": 8, "distance": 2365 }
+    ]
+  },
+  {
+    "id": "10103",
+    "trainName": "Mandovi Express",
+    "trainNumber": "10103",
+    "source": "CSMT",
+    "destination": "MAO",
+    "duration": "14:15",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "CSMT", "stationName": "C. Shivaji Maharaj Terminus", "arrivalTime": "07:10", "departureTime": "07:10", "platform": 11, "distance": 0 },
+      { "stationCode": "PNVL", "stationName": "Panvel", "arrivalTime": "08:25", "departureTime": "08:30", "platform": 5, "distance": 68 },
+      { "stationCode": "RN", "stationName": "Ratnagiri", "arrivalTime": "14:30", "departureTime": "14:35", "platform": 1, "distance": 346 },
+      { "stationCode": "MAO", "stationName": "Madgaon Jn", "arrivalTime": "21:25", "departureTime": "21:25", "platform": 1, "distance": 765 }
+    ]
+  },
+  {
+    "id": "10104",
+    "trainName": "Mandovi Express Return",
+    "trainNumber": "10104",
+    "source": "MAO",
+    "destination": "CSMT",
+    "duration": "14:15",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "MAO", "stationName": "Madgaon Jn", "arrivalTime": "09:15", "departureTime": "09:15", "platform": 1, "distance": 0 },
+      { "stationCode": "RN", "stationName": "Ratnagiri", "arrivalTime": "14:30", "departureTime": "14:35", "platform": 1, "distance": 419 },
+      { "stationCode": "PNVL", "stationName": "Panvel", "arrivalTime": "21:25", "departureTime": "21:30", "platform": 5, "distance": 697 },
+      { "stationCode": "CSMT", "stationName": "C. Shivaji Maharaj Terminus", "arrivalTime": "23:30", "departureTime": "23:30", "platform": 11, "distance": 765 }
+    ]
+  },
+  {
+    "id": "20111",
+    "trainName": "Konkan Kanya Express",
+    "trainNumber": "20111",
+    "source": "CSMT",
+    "destination": "MAO",
+    "duration": "13:35",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "CSMT", "stationName": "C. Shivaji Maharaj Terminus", "arrivalTime": "23:05", "departureTime": "23:05", "platform": 11, "distance": 0 },
+      { "stationCode": "PNVL", "stationName": "Panvel", "arrivalTime": "00:25", "departureTime": "00:30", "platform": 5, "distance": 68 },
+      { "stationCode": "RN", "stationName": "Ratnagiri", "arrivalTime": "05:40", "departureTime": "05:45", "platform": 1, "distance": 346 },
+      { "stationCode": "MAO", "stationName": "Madgaon Jn", "arrivalTime": "12:40", "departureTime": "12:40", "platform": 1, "distance": 765 }
+    ]
+  },
+  {
+    "id": "20112",
+    "trainName": "Konkan Kanya Express Return",
+    "trainNumber": "20112",
+    "source": "MAO",
+    "destination": "CSMT",
+    "duration": "13:35",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "MAO", "stationName": "Madgaon Jn", "arrivalTime": "18:00", "departureTime": "18:00", "platform": 1, "distance": 0 },
+      { "stationCode": "RN", "stationName": "Ratnagiri", "arrivalTime": "23:30", "departureTime": "23:35", "platform": 1, "distance": 419 },
+      { "stationCode": "PNVL", "stationName": "Panvel", "arrivalTime": "05:35", "departureTime": "05:40", "platform": 5, "distance": 697 },
+      { "stationCode": "CSMT", "stationName": "C. Shivaji Maharaj Terminus", "arrivalTime": "07:35", "departureTime": "07:35", "platform": 11, "distance": 765 }
+    ]
+  },
+  {
+    "id": "12779",
+    "trainName": "Goa Express",
+    "trainNumber": "12779",
+    "source": "VSG",
+    "destination": "NZM",
+    "duration": "39:25",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "VSG", "stationName": "Vasco Da Gama", "arrivalTime": "15:00", "departureTime": "15:00", "platform": 1, "distance": 0 },
+      { "stationCode": "MAO", "stationName": "Madgaon Jn", "arrivalTime": "15:35", "departureTime": "15:40", "platform": 2, "distance": 28 },
+      { "stationCode": "BPL", "stationName": "Bhopal Jn", "arrivalTime": "19:00", "departureTime": "19:10", "platform": 2, "distance": 1450 },
+      { "stationCode": "AGC", "stationName": "Agra Cantt", "arrivalTime": "02:30", "departureTime": "02:35", "platform": 2, "distance": 1957 },
+      { "stationCode": "NZM", "stationName": "Hazrat Nizamuddin", "arrivalTime": "06:25", "departureTime": "06:25", "platform": 3, "distance": 2145 }
+    ]
+  },
+  {
+    "id": "12780",
+    "trainName": "Goa Express Return",
+    "trainNumber": "12780",
+    "source": "NZM",
+    "destination": "VSG",
+    "duration": "39:25",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "NZM", "stationName": "Hazrat Nizamuddin", "arrivalTime": "15:15", "departureTime": "15:15", "platform": 3, "distance": 0 },
+      { "stationCode": "AGC", "stationName": "Agra Cantt", "arrivalTime": "17:50", "departureTime": "17:55", "platform": 1, "distance": 188 },
+      { "stationCode": "BPL", "stationName": "Bhopal Jn", "arrivalTime": "02:35", "departureTime": "02:45", "platform": 1, "distance": 695 },
+      { "stationCode": "MAO", "stationName": "Madgaon Jn", "arrivalTime": "05:40", "departureTime": "05:50", "platform": 1, "distance": 2117 },
+      { "stationCode": "VSG", "stationName": "Vasco Da Gama", "arrivalTime": "06:40", "departureTime": "06:40", "platform": 1, "distance": 2145 }
+    ]
+  },
+  {
+    "id": "22221",
+    "trainName": "CSMT Rajdhani Express",
+    "trainNumber": "22221",
+    "source": "CSMT",
+    "destination": "NZM",
+    "duration": "18:20",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "CSMT", "stationName": "C. Shivaji Maharaj Terminus", "arrivalTime": "16:00", "departureTime": "16:00", "platform": 18, "distance": 0 },
+      { "stationCode": "KYN", "stationName": "Kalyan Jn", "arrivalTime": "16:43", "departureTime": "16:45", "platform": 4, "distance": 51 },
+      { "stationCode": "NK", "stationName": "Nashik Road", "arrivalTime": "18:17", "departureTime": "18:19", "platform": 2, "distance": 183 },
+      { "stationCode": "JL", "stationName": "Jalgaon Jn", "arrivalTime": "20:48", "departureTime": "20:50", "platform": 3, "distance": 416 },
+      { "stationCode": "BSL", "stationName": "Bhusaval Jn", "arrivalTime": "21:15", "departureTime": "21:17", "platform": 5, "distance": 445 },
+      { "stationCode": "BPL", "stationName": "Bhopal Jn", "arrivalTime": "01:55", "departureTime": "02:00", "platform": 2, "distance": 839 },
+      { "stationCode": "VGLJ", "stationName": "VGL Jhansi Jn", "arrivalTime": "05:06", "departureTime": "05:11", "platform": 4, "distance": 1131 },
+      { "stationCode": "GWL", "stationName": "Gwalior Jn", "arrivalTime": "06:13", "departureTime": "06:15", "platform": 1, "distance": 1228 },
+      { "stationCode": "AGC", "stationName": "Agra Cantt", "arrivalTime": "07:33", "departureTime": "07:35", "platform": 2, "distance": 1343 },
+      { "stationCode": "NZM", "stationName": "Hazrat Nizamuddin", "arrivalTime": "10:20", "departureTime": "10:20", "platform": 4, "distance": 1531 }
+    ]
+  },
+  {
+    "id": "22222",
+    "trainName": "CSMT Rajdhani Return",
+    "trainNumber": "22222",
+    "source": "NZM",
+    "destination": "CSMT",
+    "duration": "18:20",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "NZM", "stationName": "Hazrat Nizamuddin", "arrivalTime": "16:55", "departureTime": "16:55", "platform": 4, "distance": 0 },
+      { "stationCode": "AGC", "stationName": "Agra Cantt", "arrivalTime": "18:45", "departureTime": "18:47", "platform": 1, "distance": 188 },
+      { "stationCode": "GWL", "stationName": "Gwalior Jn", "arrivalTime": "20:08", "departureTime": "20:10", "platform": 1, "distance": 303 },
+      { "stationCode": "VGLJ", "stationName": "VGL Jhansi Jn", "arrivalTime": "21:28", "departureTime": "21:33", "platform": 1, "distance": 400 },
+      { "stationCode": "BPL", "stationName": "Bhopal Jn", "arrivalTime": "00:35", "departureTime": "00:40", "platform": 1, "distance": 692 },
+      { "stationCode": "BSL", "stationName": "Bhusaval Jn", "arrivalTime": "05:15", "departureTime": "05:17", "platform": 1, "distance": 1086 },
+      { "stationCode": "JL", "stationName": "Jalgaon Jn", "arrivalTime": "05:38", "departureTime": "05:40", "platform": 2, "distance": 1115 },
+      { "stationCode": "NK", "stationName": "Nashik Road", "arrivalTime": "08:08", "departureTime": "08:10", "platform": 3, "distance": 1348 },
+      { "stationCode": "KYN", "stationName": "Kalyan Jn", "arrivalTime": "10:13", "departureTime": "10:15", "platform": 5, "distance": 1480 },
+      { "stationCode": "CSMT", "stationName": "C. Shivaji Maharaj Terminus", "arrivalTime": "11:15", "departureTime": "11:15", "platform": 18, "distance": 1531 }
+    ]
+  },
+  {
+    "id": "22436",
+    "trainName": "Vande Bharat Express",
+    "trainNumber": "22436",
+    "source": "NDLS",
+    "destination": "BSB",
+    "duration": "08:00",
+    "days": ["S", "T", "W", "F", "S"],
+    "route": [
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "06:00", "departureTime": "06:00", "platform": 16, "distance": 0 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "10:08", "departureTime": "10:10", "platform": 5, "distance": 440 },
+      { "stationCode": "PRYJ", "stationName": "Prayagraj Jn", "arrivalTime": "12:08", "departureTime": "12:10", "platform": 6, "distance": 634 },
+      { "stationCode": "BSB", "stationName": "Varanasi Jn", "arrivalTime": "14:00", "departureTime": "14:00", "platform": 1, "distance": 758 }
+    ]
+  },
+  {
+    "id": "22435",
+    "trainName": "Vande Bharat Return",
+    "trainNumber": "22435",
+    "source": "BSB",
+    "destination": "NDLS",
+    "duration": "08:00",
+    "days": ["S", "T", "W", "F", "S"],
+    "route": [
+      { "stationCode": "BSB", "stationName": "Varanasi Jn", "arrivalTime": "15:00", "departureTime": "15:00", "platform": 1, "distance": 0 },
+      { "stationCode": "PRYJ", "stationName": "Prayagraj Jn", "arrivalTime": "16:30", "departureTime": "16:32", "platform": 6, "distance": 124 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "18:30", "departureTime": "18:32", "platform": 5, "distance": 318 },
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "23:00", "departureTime": "23:00", "platform": 16, "distance": 758 }
+    ]
+  },
+  {
+    "id": "12841",
+    "trainName": "Coromandel Express",
+    "trainNumber": "12841",
+    "source": "HWH",
+    "destination": "MAS",
+    "duration": "27:45",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "HWH", "stationName": "Howrah Jn", "arrivalTime": "15:20", "departureTime": "15:20", "platform": 23, "distance": 0 },
+      { "stationCode": "BBS", "stationName": "Bhubaneswar", "arrivalTime": "21:20", "departureTime": "21:25", "platform": 4, "distance": 437 },
+      { "stationCode": "VSKP", "stationName": "Visakhapatnam", "arrivalTime": "04:00", "departureTime": "04:20", "platform": 1, "distance": 880 },
+      { "stationCode": "BZA", "stationName": "Vijayawada Jn", "arrivalTime": "09:55", "departureTime": "10:05", "platform": 1, "distance": 1230 },
+      { "stationCode": "MAS", "stationName": "Chennai Central", "arrivalTime": "17:05", "departureTime": "17:05", "platform": 8, "distance": 1661 }
+    ]
+  },
+  {
+    "id": "12842",
+    "trainName": "Coromandel Return",
+    "trainNumber": "12842",
+    "source": "MAS",
+    "destination": "HWH",
+    "duration": "27:45",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "MAS", "stationName": "Chennai Central", "arrivalTime": "07:00", "departureTime": "07:00", "platform": 8, "distance": 0 },
+      { "stationCode": "BZA", "stationName": "Vijayawada Jn", "arrivalTime": "13:30", "departureTime": "13:40", "platform": 1, "distance": 431 },
+      { "stationCode": "VSKP", "stationName": "Visakhapatnam", "arrivalTime": "19:50", "departureTime": "20:10", "platform": 1, "distance": 781 },
+      { "stationCode": "BBS", "stationName": "Bhubaneswar", "arrivalTime": "01:50", "departureTime": "01:55", "platform": 4, "distance": 1224 },
+      { "stationCode": "HWH", "stationName": "Howrah Jn", "arrivalTime": "10:45", "departureTime": "10:45", "platform": 23, "distance": 1661 }
+    ]
+  },
+  {
+    "id": "12262",
+    "trainName": "Howrah CSMT Duronto",
+    "trainNumber": "12262",
+    "source": "HWH",
+    "destination": "CSMT",
+    "duration": "26:30",
+    "days": ["M", "T", "W", "F"],
+    "route": [
+      { "stationCode": "HWH", "stationName": "Howrah Jn", "arrivalTime": "05:45", "departureTime": "05:45", "platform": 22, "distance": 0 },
+      { "stationCode": "BSP", "stationName": "Bilaspur Jn", "arrivalTime": "14:55", "departureTime": "15:05", "platform": 1, "distance": 716 },
+      { "stationCode": "R", "stationName": "Raipur Jn", "arrivalTime": "16:35", "departureTime": "16:37", "platform": 1, "distance": 827 },
+      { "stationCode": "NGP", "stationName": "Nagpur Jn", "arrivalTime": "20:50", "departureTime": "20:55", "platform": 3, "distance": 1129 },
+      { "stationCode": "BSL", "stationName": "Bhusaval Jn", "arrivalTime": "01:40", "departureTime": "01:45", "platform": 3, "distance": 1522 },
+      { "stationCode": "KYN", "stationName": "Kalyan Jn", "arrivalTime": "07:00", "departureTime": "07:02", "platform": 5, "distance": 1911 },
+      { "stationCode": "CSMT", "stationName": "C. Shivaji Maharaj Terminus", "arrivalTime": "08:15", "departureTime": "08:15", "platform": 18, "distance": 1965 }
+    ]
+  },
+  {
+    "id": "12261",
+    "trainName": "CSMT Howrah Duronto",
+    "trainNumber": "12261",
+    "source": "CSMT",
+    "destination": "HWH",
+    "duration": "26:30",
+    "days": ["T", "W", "T", "S"],
+    "route": [
+      { "stationCode": "CSMT", "stationName": "C. Shivaji Maharaj Terminus", "arrivalTime": "17:15", "departureTime": "17:15", "platform": 18, "distance": 0 },
+      { "stationCode": "KYN", "stationName": "Kalyan Jn", "arrivalTime": "18:00", "departureTime": "18:02", "platform": 4, "distance": 54 },
+      { "stationCode": "BSL", "stationName": "Bhusaval Jn", "arrivalTime": "23:00", "departureTime": "23:05", "platform": 3, "distance": 443 },
+      { "stationCode": "NGP", "stationName": "Nagpur Jn", "arrivalTime": "04:10", "departureTime": "04:15", "platform": 3, "distance": 836 },
+      { "stationCode": "R", "stationName": "Raipur Jn", "arrivalTime": "08:22", "departureTime": "08:24", "platform": 1, "distance": 1138 },
+      { "stationCode": "BSP", "stationName": "Bilaspur Jn", "arrivalTime": "10:15", "departureTime": "10:25", "platform": 1, "distance": 1249 },
+      { "stationCode": "HWH", "stationName": "Howrah Jn", "arrivalTime": "20:15", "departureTime": "20:15", "platform": 22, "distance": 1965 }
+    ]
+  },
+  {
+    "id": "12123",
+    "trainName": "Deccan Queen",
+    "trainNumber": "12123",
+    "source": "CSMT",
+    "destination": "PUNE",
+    "duration": "03:15",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "CSMT", "stationName": "C. Shivaji Maharaj Terminus", "arrivalTime": "17:10", "departureTime": "17:10", "platform": 8, "distance": 0 },
+      { "stationCode": "LNL", "stationName": "Lonavala", "arrivalTime": "19:18", "departureTime": "19:20", "platform": 1, "distance": 128 },
+      { "stationCode": "PUNE", "stationName": "Pune Jn", "arrivalTime": "20:25", "departureTime": "20:25", "platform": 5, "distance": 192 }
+    ]
+  },
+  {
+    "id": "12124",
+    "trainName": "Deccan Queen Return",
+    "trainNumber": "12124",
+    "source": "PUNE",
+    "destination": "CSMT",
+    "duration": "03:15",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "PUNE", "stationName": "Pune Jn", "arrivalTime": "07:15", "departureTime": "07:15", "platform": 5, "distance": 0 },
+      { "stationCode": "LNL", "stationName": "Lonavala", "arrivalTime": "08:13", "departureTime": "08:15", "platform": 2, "distance": 64 },
+      { "stationCode": "CSMT", "stationName": "C. Shivaji Maharaj Terminus", "arrivalTime": "10:30", "departureTime": "10:30", "platform": 8, "distance": 192 }
+    ]
+  },
+  {
+    "id": "12953",
+    "trainName": "August Kranti Rajdhani",
+    "trainNumber": "12953",
+    "source": "MMCT",
+    "destination": "NZM",
+    "duration": "16:33",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "MMCT", "stationName": "Mumbai Central", "arrivalTime": "17:10", "departureTime": "17:10", "platform": 3, "distance": 0 },
+      { "stationCode": "BVI", "stationName": "Borivali", "arrivalTime": "17:38", "departureTime": "17:40", "platform": 6, "distance": 30 },
+      { "stationCode": "VAPI", "stationName": "Vapi", "arrivalTime": "18:53", "departureTime": "18:55", "platform": 1, "distance": 170 },
+      { "stationCode": "BL", "stationName": "Valsad", "arrivalTime": "19:13", "departureTime": "19:15", "platform": 2, "distance": 194 },
+      { "stationCode": "ST", "stationName": "Surat", "arrivalTime": "20:10", "departureTime": "20:15", "platform": 1, "distance": 263 },
+      { "stationCode": "BH", "stationName": "Bharuch Jn", "arrivalTime": "20:53", "departureTime": "20:55", "platform": 3, "distance": 322 },
+      { "stationCode": "BRC", "stationName": "Vadodara Jn", "arrivalTime": "21:44", "departureTime": "21:54", "platform": 2, "distance": 392 },
+      { "stationCode": "DHD", "stationName": "Dahod", "arrivalTime": "23:38", "departureTime": "23:40", "platform": 3, "distance": 539 },
+      { "stationCode": "RTM", "stationName": "Ratlam Jn", "arrivalTime": "01:13", "departureTime": "01:15", "platform": 5, "distance": 653 },
+      { "stationCode": "KOTA", "stationName": "Kota Jn", "arrivalTime": "04:05", "departureTime": "04:15", "platform": 1, "distance": 920 },
+      { "stationCode": "SWM", "stationName": "Sawai Madhopur", "arrivalTime": "05:23", "departureTime": "05:25", "platform": 1, "distance": 1028 },
+      { "stationCode": "MTJ", "stationName": "Mathura Jn", "arrivalTime": "07:53", "departureTime": "07:55", "platform": 3, "distance": 1244 },
+      { "stationCode": "NZM", "stationName": "Hazrat Nizamuddin", "arrivalTime": "09:43", "departureTime": "09:43", "platform": 4, "distance": 1378 }
+    ]
+  },
+  {
+    "id": "12954",
+    "trainName": "August Kranti Rajdhani Return",
+    "trainNumber": "12954",
+    "source": "NZM",
+    "destination": "MMCT",
+    "duration": "18:20",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "NZM", "stationName": "Hazrat Nizamuddin", "arrivalTime": "17:15", "departureTime": "17:15", "platform": 4, "distance": 0 },
+      { "stationCode": "MTJ", "stationName": "Mathura Jn", "arrivalTime": "18:43", "departureTime": "18:45", "platform": 3, "distance": 134 },
+      { "stationCode": "SWM", "stationName": "Sawai Madhopur", "arrivalTime": "20:48", "departureTime": "20:50", "platform": 2, "distance": 350 },
+      { "stationCode": "KOTA", "stationName": "Kota Jn", "arrivalTime": "22:30", "departureTime": "22:40", "platform": 2, "distance": 458 },
+      { "stationCode": "RTM", "stationName": "Ratlam Jn", "arrivalTime": "02:13", "departureTime": "02:15", "platform": 4, "distance": 725 },
+      { "stationCode": "DHD", "stationName": "Dahod", "arrivalTime": "03:48", "departureTime": "03:50", "platform": 1, "distance": 839 },
+      { "stationCode": "BRC", "stationName": "Vadodara Jn", "arrivalTime": "05:40", "departureTime": "05:50", "platform": 1, "distance": 986 },
+      { "stationCode": "BH", "stationName": "Bharuch Jn", "arrivalTime": "06:44", "departureTime": "06:46", "platform": 3, "distance": 1056 },
+      { "stationCode": "ST", "stationName": "Surat", "arrivalTime": "07:55", "departureTime": "08:00", "platform": 2, "distance": 1115 },
+      { "stationCode": "BL", "stationName": "Valsad", "arrivalTime": "08:50", "departureTime": "08:52", "platform": 3, "distance": 1184 },
+      { "stationCode": "VAPI", "stationName": "Vapi", "arrivalTime": "09:10", "departureTime": "09:12", "platform": 1, "distance": 1208 },
+      { "stationCode": "BVI", "stationName": "Borivali", "arrivalTime": "10:57", "departureTime": "11:00", "platform": 5, "distance": 1348 },
+      { "stationCode": "MMCT", "stationName": "Mumbai Central", "arrivalTime": "11:35", "departureTime": "11:35", "platform": 1, "distance": 1378 }
+    ]
+  },
+  {
+    "id": "12423",
+    "trainName": "Dibrugarh Rajdhani",
+    "trainNumber": "12423",
+    "source": "DBRG",
+    "destination": "NDLS",
+    "duration": "37:42",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "DBRG", "stationName": "Dibrugarh", "arrivalTime": "20:50", "departureTime": "20:50", "platform": 1, "distance": 0 },
+      { "stationCode": "NTSK", "stationName": "New Tinsukia Jn", "arrivalTime": "21:35", "departureTime": "21:45", "platform": 1, "distance": 42 },
+      { "stationCode": "MXN", "stationName": "Mariani Jn", "arrivalTime": "23:53", "departureTime": "23:58", "platform": 1, "distance": 199 },
+      { "stationCode": "FKG", "stationName": "Furkating Jn", "arrivalTime": "00:45", "departureTime": "00:47", "platform": 1, "distance": 237 },
+      { "stationCode": "DMV", "stationName": "Dimapur", "arrivalTime": "02:00", "departureTime": "02:07", "platform": 1, "distance": 307 },
+      { "stationCode": "DPU", "stationName": "Diphu", "arrivalTime": "02:42", "departureTime": "02:44", "platform": 1, "distance": 344 },
+      { "stationCode": "LMG", "stationName": "Lumding Jn", "arrivalTime": "03:15", "departureTime": "03:20", "platform": 4, "distance": 376 },
+      { "stationCode": "CPK", "stationName": "Chaparmukh Jn", "arrivalTime": "04:36", "departureTime": "04:38", "platform": 1, "distance": 466 },
+      { "stationCode": "GHY", "stationName": "Guwahati", "arrivalTime": "06:15", "departureTime": "06:35", "platform": 1, "distance": 557 },
+      { "stationCode": "RNY", "stationName": "Rangiya Jn", "arrivalTime": "07:28", "departureTime": "07:30", "platform": 1, "distance": 605 },
+      { "stationCode": "NBQ", "stationName": "New Bongaigaon", "arrivalTime": "09:00", "departureTime": "09:10", "platform": 1, "distance": 714 },
+      { "stationCode": "KOJ", "stationName": "Kokrajhar", "arrivalTime": "09:50", "departureTime": "09:52", "platform": 1, "distance": 742 },
+      { "stationCode": "NCB", "stationName": "New Cooch Behar", "arrivalTime": "10:58", "departureTime": "11:00", "platform": 1, "distance": 839 },
+      { "stationCode": "NJP", "stationName": "New Jalpaiguri Jn", "arrivalTime": "13:05", "departureTime": "13:15", "platform": 1, "distance": 965 },
+      { "stationCode": "KNE", "stationName": "Kishanganj", "arrivalTime": "14:20", "departureTime": "14:22", "platform": 1, "distance": 1052 },
+      { "stationCode": "KIR", "stationName": "Katihar Jn", "arrivalTime": "16:20", "departureTime": "16:30", "platform": 1, "distance": 1148 },
+      { "stationCode": "NNA", "stationName": "Naugachia", "arrivalTime": "17:08", "departureTime": "17:10", "platform": 1, "distance": 1207 },
+      { "stationCode": "MNE", "stationName": "Mansi Jn", "arrivalTime": "18:03", "departureTime": "18:05", "platform": 1, "distance": 1265 },
+      { "stationCode": "BJU", "stationName": "Barauni Jn", "arrivalTime": "19:05", "departureTime": "19:15", "platform": 1, "distance": 1330 },
+      { "stationCode": "PPTA", "stationName": "Patliputra Jn", "arrivalTime": "21:30", "departureTime": "21:40", "platform": 1, "distance": 1438 },
+      { "stationCode": "DNR", "stationName": "Danapur", "arrivalTime": "21:56", "departureTime": "21:58", "platform": 1, "distance": 1444 },
+      { "stationCode": "DDU", "stationName": "Pt Deen Dayal Upadhyaya Jn", "arrivalTime": "00:53", "departureTime": "01:00", "platform": 1, "distance": 1646 },
+      { "stationCode": "PRYJ", "stationName": "Prayagraj Jn", "arrivalTime": "02:50", "departureTime": "02:52", "platform": 1, "distance": 1798 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "04:55", "departureTime": "05:00", "platform": 1, "distance": 1993 },
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "10:30", "departureTime": "10:30", "platform": 1, "distance": 2433 }
+    ]
+  },
+  {
+    "id": "12424",
+    "trainName": "Dibrugarh Rajdhani Return",
+    "trainNumber": "12424",
+    "source": "NDLS",
+    "destination": "DBRG",
+    "duration": "37:45",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "16:20", "departureTime": "16:20", "platform": 16, "distance": 0 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "21:00", "departureTime": "21:05", "platform": 5, "distance": 440 },
+      { "stationCode": "PRYJ", "stationName": "Prayagraj Jn", "arrivalTime": "23:08", "departureTime": "23:10", "platform": 6, "distance": 635 },
+      { "stationCode": "DDU", "stationName": "Pt Deen Dayal Upadhyaya Jn", "arrivalTime": "01:13", "departureTime": "01:20", "platform": 7, "distance": 787 },
+      { "stationCode": "DNR", "stationName": "Danapur", "arrivalTime": "03:38", "departureTime": "03:40", "platform": 1, "distance": 989 },
+      { "stationCode": "PPTA", "stationName": "Patliputra", "arrivalTime": "04:00", "departureTime": "04:10", "platform": 1, "distance": 995 },
+      { "stationCode": "BJU", "stationName": "Barauni Jn", "arrivalTime": "06:35", "departureTime": "06:45", "platform": 1, "distance": 1103 },
+      { "stationCode": "MNE", "stationName": "Mansi Jn", "arrivalTime": "07:38", "departureTime": "07:40", "platform": 1, "distance": 1168 },
+      { "stationCode": "NNA", "stationName": "Naugachia", "arrivalTime": "08:24", "departureTime": "08:26", "platform": 1, "distance": 1226 },
+      { "stationCode": "KIR", "stationName": "Katihar Jn", "arrivalTime": "09:35", "departureTime": "09:45", "platform": 1, "distance": 1285 },
+      { "stationCode": "KNE", "stationName": "Kishanganj", "arrivalTime": "11:00", "departureTime": "11:02", "platform": 1, "distance": 1381 },
+      { "stationCode": "NJP", "stationName": "New Jalpaiguri Jn", "arrivalTime": "12:30", "departureTime": "12:40", "platform": 1, "distance": 1468 },
+      { "stationCode": "NCB", "stationName": "New Cooch Behar", "arrivalTime": "14:15", "departureTime": "14:17", "platform": 1, "distance": 1594 },
+      { "stationCode": "KOJ", "stationName": "Kokrajhar", "arrivalTime": "15:15", "departureTime": "15:17", "platform": 1, "distance": 1691 },
+      { "stationCode": "NBQ", "stationName": "New Bongaigaon", "arrivalTime": "16:15", "departureTime": "16:25", "platform": 1, "distance": 1719 },
+      { "stationCode": "RNY", "stationName": "Rangiya Jn", "arrivalTime": "17:40", "departureTime": "17:42", "platform": 1, "distance": 1828 },
+      { "stationCode": "GHY", "stationName": "Guwahati", "arrivalTime": "19:10", "departureTime": "19:25", "platform": 1, "distance": 1876 },
+      { "stationCode": "CPK", "stationName": "Chaparmukh Jn", "arrivalTime": "20:43", "departureTime": "20:45", "platform": 1, "distance": 1967 },
+      { "stationCode": "LMG", "stationName": "Lumding Jn", "arrivalTime": "22:15", "departureTime": "22:20", "platform": 4, "distance": 2057 },
+      { "stationCode": "DPU", "stationName": "Diphu", "arrivalTime": "22:50", "departureTime": "22:52", "platform": 1, "distance": 2089 },
+      { "stationCode": "DMV", "stationName": "Dimapur", "arrivalTime": "23:30", "departureTime": "23:37", "platform": 1, "distance": 2126 },
+      { "stationCode": "FKG", "stationName": "Furkating Jn", "arrivalTime": "00:58", "departureTime": "01:00", "platform": 1, "distance": 2196 },
+      { "stationCode": "MXN", "stationName": "Mariani Jn", "arrivalTime": "02:10", "departureTime": "02:15", "platform": 1, "distance": 2234 },
+      { "stationCode": "NTSK", "stationName": "New Tinsukia", "arrivalTime": "04:20", "departureTime": "04:30", "platform": 1, "distance": 2391 },
+      { "stationCode": "DBRG", "stationName": "Dibrugarh", "arrivalTime": "06:05", "departureTime": "06:05", "platform": 1, "distance": 2433 }
+    ]
+  },
+  {
+    "id": "12305",
+    "trainName": "Howrah Rajdhani (via Patna)",
+    "trainNumber": "12305",
+    "source": "HWH",
+    "destination": "NDLS",
+    "duration": "20:00",
+    "days": ["S"],
+    "route": [
+      { "stationCode": "HWH", "stationName": "Howrah Jn", "arrivalTime": "14:05", "departureTime": "14:05", "platform": 9, "distance": 0 },
+      { "stationCode": "BWN", "stationName": "Barddhaman Jn", "arrivalTime": "14:57", "departureTime": "14:59", "platform": 1, "distance": 95 },
+      { "stationCode": "MDP", "stationName": "Madhupur Jn", "arrivalTime": "17:02", "departureTime": "17:05", "platform": 2, "distance": 282 },
+      { "stationCode": "JSME", "stationName": "Jasidih Jn", "arrivalTime": "17:29", "departureTime": "17:33", "platform": 2, "distance": 311 },
+      { "stationCode": "PNBE", "stationName": "Patna Jn", "arrivalTime": "21:28", "departureTime": "21:35", "platform": 4, "distance": 532 },
+      { "stationCode": "DDU", "stationName": "Pt Deen Dayal Upadhyaya Jn", "arrivalTime": "00:43", "departureTime": "00:50", "platform": 7, "distance": 743 },
+      { "stationCode": "PRYJ", "stationName": "Prayagraj Jn", "arrivalTime": "02:43", "departureTime": "02:45", "platform": 1, "distance": 895 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "04:45", "departureTime": "04:50", "platform": 1, "distance": 1090 },
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "10:05", "departureTime": "10:05", "platform": 1, "distance": 1530 }
+    ]
+  },
+  {
+    "id": "12306",
+    "trainName": "Howrah Rajdhani Return (via Patna)",
+    "trainNumber": "12306",
+    "source": "NDLS",
+    "destination": "HWH",
+    "duration": "19:25",
+    "days": ["F"],
+    "route": [
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "16:50", "departureTime": "16:50", "platform": 1, "distance": 0 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "21:30", "departureTime": "21:35", "platform": 4, "distance": 440 },
+      { "stationCode": "PRYJ", "stationName": "Prayagraj Jn", "arrivalTime": "23:41", "departureTime": "23:43", "platform": 1, "distance": 635 },
+      { "stationCode": "DDU", "stationName": "Pt Deen Dayal Upadhyaya Jn", "arrivalTime": "01:33", "departureTime": "01:40", "platform": 7, "distance": 787 },
+      { "stationCode": "PNBE", "stationName": "Patna Jn", "arrivalTime": "04:18", "departureTime": "04:25", "platform": 1, "distance": 998 },
+      { "stationCode": "JSME", "stationName": "Jasidih Jn", "arrivalTime": "07:39", "departureTime": "07:43", "platform": 1, "distance": 1219 },
+      { "stationCode": "MDP", "stationName": "Madhupur Jn", "arrivalTime": "08:04", "departureTime": "08:06", "platform": 1, "distance": 1248 },
+      { "stationCode": "BWN", "stationName": "Barddhaman Jn", "arrivalTime": "10:35", "departureTime": "10:37", "platform": 1, "distance": 1435 },
+      { "stationCode": "HWH", "stationName": "Howrah Jn", "arrivalTime": "12:15", "departureTime": "12:15", "platform": 9, "distance": 1530 }
+    ]
+  },
+  {
+    "id": "12309",
+    "trainName": "Patna Tejas Rajdhani",
+    "trainNumber": "12309",
+    "source": "RJPB",
+    "destination": "NDLS",
+    "duration": "12:30",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "RJPB", "stationName": "Rajendra Nagar Terminal", "arrivalTime": "19:10", "departureTime": "19:10", "platform": 2, "distance": 0 },
+      { "stationCode": "PNBE", "stationName": "Patna Jn", "arrivalTime": "19:23", "departureTime": "19:30", "platform": 1, "distance": 3 },
+      { "stationCode": "DNR", "stationName": "Danapur", "arrivalTime": "19:43", "departureTime": "19:45", "platform": 1, "distance": 12 },
+      { "stationCode": "DDU", "stationName": "Pt Deen Dayal Upadhyaya Jn", "arrivalTime": "22:13", "departureTime": "22:20", "platform": 7, "distance": 214 },
+      { "stationCode": "PRYJ", "stationName": "Prayagraj Jn", "arrivalTime": "00:10", "departureTime": "00:12", "platform": 1, "distance": 367 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "02:15", "departureTime": "02:20", "platform": 1, "distance": 561 },
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "07:40", "departureTime": "07:40", "platform": 1, "distance": 1001 }
+    ]
+  },
+  {
+    "id": "12310",
+    "trainName": "Patna Tejas Rajdhani Return",
+    "trainNumber": "12310",
+    "source": "NDLS",
+    "destination": "RJPB",
+    "duration": "12:05",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "17:10", "departureTime": "17:10", "platform": 1, "distance": 0 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "21:50", "departureTime": "21:55", "platform": 4, "distance": 440 },
+      { "stationCode": "PRYJ", "stationName": "Prayagraj Jn", "arrivalTime": "00:01", "departureTime": "00:03", "platform": 1, "distance": 635 },
+      { "stationCode": "DDU", "stationName": "Pt Deen Dayal Upadhyaya Jn", "arrivalTime": "01:53", "departureTime": "02:00", "platform": 7, "distance": 787 },
+      { "stationCode": "DNR", "stationName": "Danapur", "arrivalTime": "04:15", "departureTime": "04:17", "platform": 1, "distance": 989 },
+      { "stationCode": "PNBE", "stationName": "Patna Jn", "arrivalTime": "04:38", "departureTime": "04:45", "platform": 1, "distance": 998 },
+      { "stationCode": "RJPB", "stationName": "Rajendra Nagar Terminal", "arrivalTime": "05:15", "departureTime": "05:15", "platform": 2, "distance": 1001 }
+    ]
+  },
+  {
+    "id": "12431",
+    "trainName": "Trivandrum Rajdhani",
+    "trainNumber": "12431",
+    "source": "TVC",
+    "destination": "NZM",
+    "duration": "41:15",
+    "days": ["T", "T", "F"],
+    "route": [
+      { "stationCode": "TVC", "stationName": "Thiruvananthapuram Central", "arrivalTime": "19:15", "departureTime": "19:15", "platform": 1, "distance": 0 },
+      { "stationCode": "QLN", "stationName": "Kollam Jn", "arrivalTime": "20:11", "departureTime": "20:13", "platform": 2, "distance": 65 },
+      { "stationCode": "ERS", "stationName": "Ernakulam Jn", "arrivalTime": "22:30", "departureTime": "22:35", "platform": 1, "distance": 221 },
+      { "stationCode": "MAJN", "stationName": "Mangaluru Jn", "arrivalTime": "05:20", "departureTime": "05:30", "platform": 2, "distance": 634 },
+      { "stationCode": "MAO", "stationName": "Madgaon Jn", "arrivalTime": "10:00", "departureTime": "10:10", "platform": 1, "distance": 967 },
+      { "stationCode": "PNVL", "stationName": "Panvel", "arrivalTime": "18:00", "departureTime": "18:05", "platform": 7, "distance": 1581 },
+      { "stationCode": "ST", "stationName": "Surat", "arrivalTime": "21:14", "departureTime": "21:19", "platform": 1, "distance": 1815 },
+      { "stationCode": "BRC", "stationName": "Vadodara Jn", "arrivalTime": "22:45", "departureTime": "22:55", "platform": 2, "distance": 1944 },
+      { "stationCode": "KOTA", "stationName": "Kota Jn", "arrivalTime": "05:10", "departureTime": "05:20", "platform": 1, "distance": 2471 },
+      { "stationCode": "NZM", "stationName": "Hazrat Nizamuddin", "arrivalTime": "12:30", "departureTime": "12:30", "platform": 4, "distance": 2931 }
+    ]
+  },
+  {
+    "id": "12432",
+    "trainName": "Trivandrum Rajdhani Return",
+    "trainNumber": "12432",
+    "source": "NZM",
+    "destination": "TVC",
+    "duration": "41:15",
+    "days": ["S", "T", "W"],
+    "route": [
+      { "stationCode": "NZM", "stationName": "Hazrat Nizamuddin", "arrivalTime": "06:16", "departureTime": "06:16", "platform": 4, "distance": 0 },
+      { "stationCode": "KOTA", "stationName": "Kota Jn", "arrivalTime": "10:40", "departureTime": "10:50", "platform": 2, "distance": 460 },
+      { "stationCode": "BRC", "stationName": "Vadodara Jn", "arrivalTime": "17:27", "departureTime": "17:37", "platform": 1, "distance": 987 },
+      { "stationCode": "ST", "stationName": "Surat", "arrivalTime": "19:14", "departureTime": "19:19", "platform": 2, "distance": 1116 },
+      { "stationCode": "PNVL", "stationName": "Panvel", "arrivalTime": "22:45", "departureTime": "22:50", "platform": 7, "distance": 1350 },
+      { "stationCode": "MAO", "stationName": "Madgaon Jn", "arrivalTime": "07:00", "departureTime": "07:10", "platform": 1, "distance": 1964 },
+      { "stationCode": "MAJN", "stationName": "Mangaluru Jn", "arrivalTime": "12:00", "departureTime": "12:10", "platform": 1, "distance": 2297 },
+      { "stationCode": "ERS", "stationName": "Ernakulam Jn", "arrivalTime": "18:25", "departureTime": "18:30", "platform": 1, "distance": 2710 },
+      { "stationCode": "QLN", "stationName": "Kollam Jn", "arrivalTime": "21:30", "departureTime": "21:32", "platform": 2, "distance": 2866 },
+      { "stationCode": "TVC", "stationName": "Thiruvananthapuram Central", "arrivalTime": "23:35", "departureTime": "23:35", "platform": 1, "distance": 2931 }
+    ]
+  },
+  {
+    "id": "22413",
+    "trainName": "Madgaon Rajdhani",
+    "trainNumber": "22413",
+    "source": "MAO",
+    "destination": "NZM",
+    "duration": "26:30",
+    "days": ["M", "T"],
+    "route": [
+      { "stationCode": "MAO", "stationName": "Madgaon Jn", "arrivalTime": "10:00", "departureTime": "10:00", "platform": 1, "distance": 0 },
+      { "stationCode": "THVM", "stationName": "Thivim", "arrivalTime": "10:50", "departureTime": "10:52", "platform": 1, "distance": 46 },
+      { "stationCode": "KUDL", "stationName": "Kudal", "arrivalTime": "11:48", "departureTime": "11:50", "platform": 1, "distance": 140 },
+      { "stationCode": "RN", "stationName": "Ratnagiri", "arrivalTime": "14:15", "departureTime": "14:20", "platform": 2, "distance": 236 },
+      { "stationCode": "PNVL", "stationName": "Panvel", "arrivalTime": "19:45", "departureTime": "19:50", "platform": 7, "distance": 514 },
+      { "stationCode": "BSR", "stationName": "Vasai Road", "arrivalTime": "20:50", "departureTime": "20:55", "platform": 6, "distance": 577 },
+      { "stationCode": "ST", "stationName": "Surat", "arrivalTime": "23:09", "departureTime": "23:14", "platform": 1, "distance": 748 },
+      { "stationCode": "BRC", "stationName": "Vadodara Jn", "arrivalTime": "00:45", "departureTime": "00:55", "platform": 2, "distance": 877 },
+      { "stationCode": "RTM", "stationName": "Ratlam Jn", "arrivalTime": "04:05", "departureTime": "04:10", "platform": 4, "distance": 1138 },
+      { "stationCode": "KOTA", "stationName": "Kota Jn", "arrivalTime": "06:45", "departureTime": "06:55", "platform": 1, "distance": 1404 },
+      { "stationCode": "NZM", "stationName": "Hazrat Nizamuddin", "arrivalTime": "11:40", "departureTime": "11:40", "platform": 4, "distance": 1864 }
+    ]
+  },
+  {
+    "id": "22414",
+    "trainName": "Madgaon Rajdhani Return",
+    "trainNumber": "22414",
+    "source": "NZM",
+    "destination": "MAO",
+    "duration": "25:19",
+    "days": ["F", "S"],
+    "route": [
+      { "stationCode": "NZM", "stationName": "Hazrat Nizamuddin", "arrivalTime": "06:16", "departureTime": "06:16", "platform": 4, "distance": 0 },
+      { "stationCode": "KOTA", "stationName": "Kota Jn", "arrivalTime": "10:40", "departureTime": "10:50", "platform": 2, "distance": 460 },
+      { "stationCode": "RTM", "stationName": "Ratlam Jn", "arrivalTime": "13:20", "departureTime": "13:25", "platform": 4, "distance": 726 },
+      { "stationCode": "BRC", "stationName": "Vadodara Jn", "arrivalTime": "17:27", "departureTime": "17:37", "platform": 1, "distance": 987 },
+      { "stationCode": "ST", "stationName": "Surat", "arrivalTime": "19:14", "departureTime": "19:19", "platform": 2, "distance": 1116 },
+      { "stationCode": "BSR", "stationName": "Vasai Road", "arrivalTime": "21:40", "departureTime": "21:45", "platform": 7, "distance": 1287 },
+      { "stationCode": "PNVL", "stationName": "Panvel", "arrivalTime": "22:45", "departureTime": "22:50", "platform": 7, "distance": 1350 },
+      { "stationCode": "RN", "stationName": "Ratnagiri", "arrivalTime": "03:05", "departureTime": "03:10", "platform": 1, "distance": 1628 },
+      { "stationCode": "KUDL", "stationName": "Kudal", "arrivalTime": "05:15", "departureTime": "05:17", "platform": 1, "distance": 1724 },
+      { "stationCode": "THVM", "stationName": "Thivim", "arrivalTime": "06:10", "departureTime": "06:12", "platform": 1, "distance": 1818 },
+      { "stationCode": "MAO", "stationName": "Madgaon Jn", "arrivalTime": "07:35", "departureTime": "07:35", "platform": 1, "distance": 1864 }
+    ]
+  },
+  {
+    "id": "12437",
+    "trainName": "Secunderabad Rajdhani",
+    "trainNumber": "12437",
+    "source": "SC",
+    "destination": "NZM",
+    "duration": "21:40",
+    "days": ["W"],
+    "route": [
+      { "stationCode": "SC", "stationName": "Secunderabad Jn", "arrivalTime": "12:50", "departureTime": "12:50", "platform": 1, "distance": 0 },
+      { "stationCode": "KZJ", "stationName": "Kazipet Jn", "arrivalTime": "14:28", "departureTime": "14:30", "platform": 1, "distance": 132 },
+      { "stationCode": "NGP", "stationName": "Nagpur Jn", "arrivalTime": "20:20", "departureTime": "20:25", "platform": 1, "distance": 575 },
+      { "stationCode": "BPL", "stationName": "Bhopal Jn", "arrivalTime": "02:05", "departureTime": "02:15", "platform": 1, "distance": 965 },
+      { "stationCode": "VGLJ", "stationName": "VGL Jhansi Jn", "arrivalTime": "05:20", "departureTime": "05:25", "platform": 4, "distance": 1257 },
+      { "stationCode": "NZM", "stationName": "Hazrat Nizamuddin", "arrivalTime": "10:30", "departureTime": "10:30", "platform": 4, "distance": 1660 }
+    ]
+  },
+  {
+    "id": "12438",
+    "trainName": "Secunderabad Rajdhani Return",
+    "trainNumber": "12438",
+    "source": "NZM",
+    "destination": "SC",
+    "duration": "22:05",
+    "days": ["S"],
+    "route": [
+      { "stationCode": "NZM", "stationName": "Hazrat Nizamuddin", "arrivalTime": "15:35", "departureTime": "15:35", "platform": 4, "distance": 0 },
+      { "stationCode": "VGLJ", "stationName": "VGL Jhansi Jn", "arrivalTime": "20:10", "departureTime": "20:15", "platform": 1, "distance": 403 },
+      { "stationCode": "BPL", "stationName": "Bhopal Jn", "arrivalTime": "23:30", "departureTime": "23:40", "platform": 1, "distance": 695 },
+      { "stationCode": "NGP", "stationName": "Nagpur Jn", "arrivalTime": "05:05", "departureTime": "05:10", "platform": 2, "distance": 1085 },
+      { "stationCode": "KZJ", "stationName": "Kazipet Jn", "arrivalTime": "11:03", "departureTime": "11:05", "platform": 1, "distance": 1528 },
+      { "stationCode": "SC", "stationName": "Secunderabad Jn", "arrivalTime": "13:40", "departureTime": "13:40", "platform": 1, "distance": 1660 }
+    ]
+  },
+  {
+    "id": "12453",
+    "trainName": "Ranchi Rajdhani (via Chopan)",
+    "trainNumber": "12453",
+    "source": "RNC",
+    "destination": "NDLS",
+    "duration": "17:55",
+    "days": ["S"],
+    "route": [
+      { "stationCode": "RNC", "stationName": "Ranchi Jn", "arrivalTime": "17:15", "departureTime": "17:15", "platform": 1, "distance": 0 },
+      { "stationCode": "DTO", "stationName": "Daltonganj", "arrivalTime": "20:20", "departureTime": "20:22", "platform": 1, "distance": 211 },
+      { "stationCode": "CPU", "stationName": "Chopan", "arrivalTime": "23:30", "departureTime": "23:35", "platform": 1, "distance": 353 },
+      { "stationCode": "PRYJ", "stationName": "Prayagraj Jn", "arrivalTime": "03:35", "departureTime": "03:37", "platform": 1, "distance": 662 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "05:40", "departureTime": "05:45", "platform": 2, "distance": 857 },
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "11:10", "departureTime": "11:10", "platform": 14, "distance": 1297 }
+    ]
+  },
+  {
+    "id": "12454",
+    "trainName": "Ranchi Rajdhani Return (via Chopan)",
+    "trainNumber": "12454",
+    "source": "NDLS",
+    "destination": "RNC",
+    "duration": "17:35",
+    "days": ["S"],
+    "route": [
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "16:10", "departureTime": "16:10", "platform": 14, "distance": 0 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "20:52", "departureTime": "20:57", "platform": 4, "distance": 440 },
+      { "stationCode": "PRYJ", "stationName": "Prayagraj Jn", "arrivalTime": "22:58", "departureTime": "23:00", "platform": 1, "distance": 635 },
+      { "stationCode": "CPU", "stationName": "Chopan", "arrivalTime": "03:15", "departureTime": "03:20", "platform": 1, "distance": 944 },
+      { "stationCode": "DTO", "stationName": "Daltonganj", "arrivalTime": "06:30", "departureTime": "06:32", "platform": 1, "distance": 1086 },
+      { "stationCode": "RNC", "stationName": "Ranchi Jn", "arrivalTime": "09:45", "departureTime": "09:45", "platform": 1, "distance": 1297 }
+    ]
+  },
+  {
+    "id": "20839",
+    "trainName": "Ranchi Rajdhani (via Bokaro)",
+    "trainNumber": "20839",
+    "source": "RNC",
+    "destination": "NDLS",
+    "duration": "17:10",
+    "days": ["W", "S"],
+    "route": [
+      { "stationCode": "RNC", "stationName": "Ranchi Jn", "arrivalTime": "18:00", "departureTime": "18:00", "platform": 1, "distance": 0 },
+      { "stationCode": "BKSC", "stationName": "Bokaro Steel City", "arrivalTime": "19:25", "departureTime": "19:30", "platform": 1, "distance": 113 },
+      { "stationCode": "GAYA", "stationName": "Gaya Jn", "arrivalTime": "22:15", "departureTime": "22:18", "platform": 1, "distance": 322 },
+      { "stationCode": "DDU", "stationName": "Pt Deen Dayal Upadhyaya Jn", "arrivalTime": "00:43", "departureTime": "00:50", "platform": 7, "distance": 527 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "04:45", "departureTime": "04:50", "platform": 2, "distance": 874 },
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "11:10", "departureTime": "11:10", "platform": 14, "distance": 1314 }
+    ]
+  },
+  {
+    "id": "20840",
+    "trainName": "Ranchi Rajdhani Return (via Bokaro)",
+    "trainNumber": "20840",
+    "source": "NDLS",
+    "destination": "RNC",
+    "duration": "16:55",
+    "days": ["M", "F"],
+    "route": [
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "16:10", "departureTime": "16:10", "platform": 14, "distance": 0 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "20:52", "departureTime": "20:57", "platform": 4, "distance": 440 },
+      { "stationCode": "DDU", "stationName": "Pt Deen Dayal Upadhyaya Jn", "arrivalTime": "01:07", "departureTime": "01:17", "platform": 7, "distance": 787 },
+      { "stationCode": "GAYA", "stationName": "Gaya Jn", "arrivalTime": "03:30", "departureTime": "03:33", "platform": 1, "distance": 992 },
+      { "stationCode": "BKSC", "stationName": "Bokaro Steel City", "arrivalTime": "07:10", "departureTime": "07:15", "platform": 1, "distance": 1201 },
+      { "stationCode": "RNC", "stationName": "Ranchi Jn", "arrivalTime": "09:05", "departureTime": "09:05", "platform": 1, "distance": 1314 }
+    ]
+  },
+  {
+    "id": "20817",
+    "trainName": "Bhubaneswar Tejas Rajdhani",
+    "trainNumber": "20817",
+    "source": "BBS",
+    "destination": "NDLS",
+    "duration": "26:40",
+    "days": ["S"],
+    "route": [
+      { "stationCode": "BBS", "stationName": "Bhubaneswar", "arrivalTime": "07:15", "departureTime": "07:15", "platform": 1, "distance": 0 },
+      { "stationCode": "CTC", "stationName": "Cuttack Jn", "arrivalTime": "07:43", "departureTime": "07:45", "platform": 1, "distance": 28 },
+      { "stationCode": "SBPY", "stationName": "Sambalpur City", "arrivalTime": "11:23", "departureTime": "11:25", "platform": 1, "distance": 290 },
+      { "stationCode": "JSG", "stationName": "Jharsuguda Jn", "arrivalTime": "12:38", "departureTime": "12:40", "platform": 1, "distance": 335 },
+      { "stationCode": "ROU", "stationName": "Rourkela", "arrivalTime": "14:00", "departureTime": "14:08", "platform": 1, "distance": 436 },
+      { "stationCode": "GAYA", "stationName": "Gaya Jn", "arrivalTime": "22:15", "departureTime": "22:18", "platform": 1, "distance": 880 },
+      { "stationCode": "DDU", "stationName": "Pt Deen Dayal Upadhyaya Jn", "arrivalTime": "00:43", "departureTime": "00:50", "platform": 7, "distance": 1085 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "04:45", "departureTime": "04:50", "platform": 2, "distance": 1432 },
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "09:55", "departureTime": "09:55", "platform": 11, "distance": 1872 }
+    ]
+  },
+  {
+    "id": "20818",
+    "trainName": "Bhubaneswar Tejas Rajdhani Return",
+    "trainNumber": "20818",
+    "source": "NDLS",
+    "destination": "BBS",
+    "duration": "26:25",
+    "days": ["S"],
+    "route": [
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "17:00", "departureTime": "17:00", "platform": 11, "distance": 0 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "21:42", "departureTime": "21:47", "platform": 4, "distance": 440 },
+      { "stationCode": "DDU", "stationName": "Pt Deen Dayal Upadhyaya Jn", "arrivalTime": "01:47", "departureTime": "01:57", "platform": 7, "distance": 787 },
+      { "stationCode": "GAYA", "stationName": "Gaya Jn", "arrivalTime": "04:10", "departureTime": "04:13", "platform": 1, "distance": 992 },
+      { "stationCode": "ROU", "stationName": "Rourkela", "arrivalTime": "12:12", "departureTime": "12:20", "platform": 1, "distance": 1436 },
+      { "stationCode": "JSG", "stationName": "Jharsuguda Jn", "arrivalTime": "14:00", "departureTime": "14:05", "platform": 1, "distance": 1537 },
+      { "stationCode": "SBPY", "stationName": "Sambalpur City", "arrivalTime": "15:00", "departureTime": "15:05", "platform": 1, "distance": 1582 },
+      { "stationCode": "CTC", "stationName": "Cuttack Jn", "arrivalTime": "18:48", "departureTime": "18:50", "platform": 1, "distance": 1844 },
+      { "stationCode": "BBS", "stationName": "Bhubaneswar", "arrivalTime": "19:25", "departureTime": "19:25", "platform": 1, "distance": 1872 }
+    ]
+  },
+  {
+    "id": "12425",
+    "trainName": "Jammu Tawi Rajdhani",
+    "trainNumber": "12425",
+    "source": "NDLS",
+    "destination": "JAT",
+    "duration": "08:20",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "20:40", "departureTime": "20:40", "platform": 12, "distance": 0 },
+      { "stationCode": "LDH", "stationName": "Ludhiana Jn", "arrivalTime": "00:28", "departureTime": "00:38", "platform": 2, "distance": 312 },
+      { "stationCode": "PTKC", "stationName": "Pathankot Cantt", "arrivalTime": "03:10", "departureTime": "03:12", "platform": 2, "distance": 478 },
+      { "stationCode": "KTHU", "stationName": "Kathua", "arrivalTime": "03:41", "departureTime": "03:43", "platform": 1, "distance": 501 },
+      { "stationCode": "JAT", "stationName": "Jammu Tawi", "arrivalTime": "05:00", "departureTime": "05:00", "platform": 1, "distance": 577 }
+    ]
+  },
+  {
+    "id": "12426",
+    "trainName": "Jammu Tawi Rajdhani Return",
+    "trainNumber": "12426",
+    "source": "JAT",
+    "destination": "NDLS",
+    "duration": "08:30",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "JAT", "stationName": "Jammu Tawi", "arrivalTime": "21:25", "departureTime": "21:25", "platform": 1, "distance": 0 },
+      { "stationCode": "KTHU", "stationName": "Kathua", "arrivalTime": "22:31", "departureTime": "22:33", "platform": 2, "distance": 76 },
+      { "stationCode": "PTKC", "stationName": "Pathankot Cantt", "arrivalTime": "23:05", "departureTime": "23:07", "platform": 1, "distance": 99 },
+      { "stationCode": "LDH", "stationName": "Ludhiana Jn", "arrivalTime": "01:35", "departureTime": "01:45", "platform": 3, "distance": 265 },
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "05:55", "departureTime": "05:55", "platform": 12, "distance": 577 }
+    ]
+  },
+  {
+    "id": "12957",
+    "trainName": "Swarna Jayanti Rajdhani",
+    "trainNumber": "12957",
+    "source": "SBIB",
+    "destination": "NDLS",
+    "duration": "12:20",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "SBIB", "stationName": "Sabarmati BG", "arrivalTime": "19:10", "departureTime": "19:10", "platform": 1, "distance": 0 },
+      { "stationCode": "MSH", "stationName": "Mahesana Jn", "arrivalTime": "19:57", "departureTime": "19:59", "platform": 1, "distance": 63 },
+      { "stationCode": "PNU", "stationName": "Palanpur Jn", "arrivalTime": "21:05", "departureTime": "21:07", "platform": 1, "distance": 128 },
+      { "stationCode": "ABR", "stationName": "Abu Road", "arrivalTime": "21:38", "departureTime": "21:45", "platform": 1, "distance": 181 },
+      { "stationCode": "FA", "stationName": "Falna", "arrivalTime": "22:50", "departureTime": "22:52", "platform": 1, "distance": 280 },
+      { "stationCode": "AII", "stationName": "Ajmer Jn", "arrivalTime": "01:05", "departureTime": "01:10", "platform": 1, "distance": 486 },
+      { "stationCode": "JP", "stationName": "Jaipur Jn", "arrivalTime": "02:40", "departureTime": "02:50", "platform": 1, "distance": 621 },
+      { "stationCode": "GGN", "stationName": "Gurgaon", "arrivalTime": "06:24", "departureTime": "06:26", "platform": 1, "distance": 898 },
+      { "stationCode": "DEC", "stationName": "Delhi Cantt", "arrivalTime": "06:40", "departureTime": "06:42", "platform": 1, "distance": 915 },
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "07:30", "departureTime": "07:30", "platform": 1, "distance": 930 }
+    ]
+  },
+  {
+    "id": "12958",
+    "trainName": "Swarna Jayanti Rajdhani Return",
+    "trainNumber": "12958",
+    "source": "NDLS",
+    "destination": "SBIB",
+    "duration": "12:10",
+    "days": ["M", "T", "W", "T", "F", "S", "S"],
+    "route": [
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "19:55", "departureTime": "19:55", "platform": 1, "distance": 0 },
+      { "stationCode": "DEC", "stationName": "Delhi Cantt", "arrivalTime": "20:23", "departureTime": "20:25", "platform": 1, "distance": 15 },
+      { "stationCode": "GGN", "stationName": "Gurgaon", "arrivalTime": "20:41", "departureTime": "20:43", "platform": 1, "distance": 32 },
+      { "stationCode": "JP", "stationName": "Jaipur Jn", "arrivalTime": "23:45", "departureTime": "23:55", "platform": 1, "distance": 309 },
+      { "stationCode": "AII", "stationName": "Ajmer Jn", "arrivalTime": "01:35", "departureTime": "01:40", "platform": 1, "distance": 444 },
+      { "stationCode": "FA", "stationName": "Falna", "arrivalTime": "03:48", "departureTime": "03:50", "platform": 1, "distance": 650 },
+      { "stationCode": "ABR", "stationName": "Abu Road", "arrivalTime": "04:53", "departureTime": "05:00", "platform": 1, "distance": 749 },
+      { "stationCode": "PNU", "stationName": "Palanpur Jn", "arrivalTime": "05:50", "departureTime": "05:52", "platform": 1, "distance": 802 },
+      { "stationCode": "MSH", "stationName": "Mahesana Jn", "arrivalTime": "06:38", "departureTime": "06:40", "platform": 1, "distance": 867 },
+      { "stationCode": "SBIB", "stationName": "Sabarmati BG", "arrivalTime": "08:05", "departureTime": "08:05", "platform": 1, "distance": 930 }
+    ]
+  },
+  {
+    "id": "12441",
+    "trainName": "Bilaspur Rajdhani",
+    "trainNumber": "12441",
+    "source": "BSP",
+    "destination": "NDLS",
+    "duration": "20:40",
+    "days": ["M", "T"],
+    "route": [
+      { "stationCode": "BSP", "stationName": "Bilaspur Jn", "arrivalTime": "14:00", "departureTime": "14:00", "platform": 8, "distance": 0 },
+      { "stationCode": "R", "stationName": "Raipur Jn", "arrivalTime": "15:25", "departureTime": "15:30", "platform": 1, "distance": 111 },
+      { "stationCode": "DURG", "stationName": "Durg Jn", "arrivalTime": "16:10", "departureTime": "16:15", "platform": 1, "distance": 148 },
+      { "stationCode": "G", "stationName": "Gondia Jn", "arrivalTime": "18:05", "departureTime": "18:07", "platform": 1, "distance": 283 },
+      { "stationCode": "NGP", "stationName": "Nagpur Jn", "arrivalTime": "19:50", "departureTime": "19:55", "platform": 1, "distance": 413 },
+      { "stationCode": "BPL", "stationName": "Bhopal Jn", "arrivalTime": "02:05", "departureTime": "02:15", "platform": 1, "distance": 803 },
+      { "stationCode": "VGLJ", "stationName": "VGL Jhansi Jn", "arrivalTime": "05:20", "departureTime": "05:25", "platform": 1, "distance": 1095 },
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "10:40", "departureTime": "10:40", "platform": 15, "distance": 1505 }
+    ]
+  },
+  {
+    "id": "12442",
+    "trainName": "Bilaspur Rajdhani Return",
+    "trainNumber": "12442",
+    "source": "NDLS",
+    "destination": "BSP",
+    "duration": "20:35",
+    "days": ["T", "S"],
+    "route": [
+      { "stationCode": "NDLS", "stationName": "New Delhi", "arrivalTime": "15:25", "departureTime": "15:25", "platform": 15, "distance": 0 },
+      { "stationCode": "VGLJ", "stationName": "VGL Jhansi Jn", "arrivalTime": "20:10", "departureTime": "20:15", "platform": 1, "distance": 410 },
+      { "stationCode": "BPL", "stationName": "Bhopal Jn", "arrivalTime": "23:30", "departureTime": "23:40", "platform": 1, "distance": 702 },
+      { "stationCode": "NGP", "stationName": "Nagpur Jn", "arrivalTime": "05:05", "departureTime": "05:10", "platform": 1, "distance": 1092 },
+      { "stationCode": "G", "stationName": "Gondia Jn", "arrivalTime": "07:13", "departureTime": "07:15", "platform": 1, "distance": 1222 },
+      { "stationCode": "DURG", "stationName": "Durg Jn", "arrivalTime": "09:25", "departureTime": "09:30", "platform": 1, "distance": 1357 },
+      { "stationCode": "R", "stationName": "Raipur Jn", "arrivalTime": "10:05", "departureTime": "10:10", "platform": 1, "distance": 1394 },
+      { "stationCode": "BSP", "stationName": "Bilaspur Jn", "arrivalTime": "12:00", "departureTime": "12:00", "platform": 8, "distance": 1505 }
+    ]
+  },
+  {
+    "id": "20501",
+    "trainName": "Agartala Tejas Rajdhani",
+    "trainNumber": "20501",
+    "source": "AGTL",
+    "destination": "ANVT",
+    "duration": "43:30",
+    "days": ["M"],
+    "route": [
+      { "stationCode": "AGTL", "stationName": "Agartala", "arrivalTime": "15:10", "departureTime": "15:10", "platform": 1, "distance": 0 },
+      { "stationCode": "ABSA", "stationName": "Ambassa", "arrivalTime": "16:24", "departureTime": "16:26", "platform": 1, "distance": 67 },
+      { "stationCode": "DMR", "stationName": "Dharmanagar", "arrivalTime": "17:55", "departureTime": "17:57", "platform": 1, "distance": 140 },
+      { "stationCode": "NKMG", "stationName": "New Karimganj Jn", "arrivalTime": "19:14", "departureTime": "19:16", "platform": 1, "distance": 204 },
+      { "stationCode": "BPB", "stationName": "Badarpur Jn", "arrivalTime": "19:50", "departureTime": "20:00", "platform": 1, "distance": 221 },
+      { "stationCode": "NHLG", "stationName": "New Haflong", "arrivalTime": "21:50", "departureTime": "21:52", "platform": 1, "distance": 292 },
+      { "stationCode": "MBG", "stationName": "Maibang", "arrivalTime": "23:05", "departureTime": "23:07", "platform": 1, "distance": 323 },
+      { "stationCode": "HJI", "stationName": "Hojai", "arrivalTime": "01:28", "departureTime": "01:30", "platform": 1, "distance": 400 },
+      { "stationCode": "GHY", "stationName": "Guwahati", "arrivalTime": "04:30", "departureTime": "04:45", "platform": 1, "distance": 566 },
+      { "stationCode": "RNY", "stationName": "Rangiya Jn", "arrivalTime": "05:45", "departureTime": "05:47", "platform": 1, "distance": 611 },
+      { "stationCode": "NBQ", "stationName": "New Bongaigaon Jn", "arrivalTime": "08:20", "departureTime": "08:25", "platform": 1, "distance": 720 },
+      { "stationCode": "KOJ", "stationName": "Kokrajhar", "arrivalTime": "08:48", "departureTime": "08:50", "platform": 1, "distance": 748 },
+      { "stationCode": "NOQ", "stationName": "New Alipurduar", "arrivalTime": "09:40", "departureTime": "09:45", "platform": 1, "distance": 822 },
+      { "stationCode": "NCB", "stationName": "New Cooch Behar", "arrivalTime": "10:13", "departureTime": "10:15", "platform": 1, "distance": 841 },
+      { "stationCode": "NJP", "stationName": "New Jalpaiguri Jn", "arrivalTime": "12:35", "departureTime": "12:45", "platform": 1, "distance": 967 },
+      { "stationCode": "KNE", "stationName": "Kishanganj", "arrivalTime": "13:55", "departureTime": "13:57", "platform": 1, "distance": 1054 },
+      { "stationCode": "KIR", "stationName": "Katihar Jn", "arrivalTime": "16:15", "departureTime": "16:25", "platform": 1, "distance": 1150 },
+      { "stationCode": "BJU", "stationName": "Barauni Jn", "arrivalTime": "20:05", "departureTime": "20:15", "platform": 1, "distance": 1331 },
+      { "stationCode": "PPTA", "stationName": "Patliputra Jn", "arrivalTime": "22:45", "departureTime": "22:55", "platform": 1, "distance": 1439 },
+      { "stationCode": "DDU", "stationName": "Pt Deen Dayal Upadhyaya Jn", "arrivalTime": "02:00", "departureTime": "02:10", "platform": 1, "distance": 1651 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "05:30", "departureTime": "05:35", "platform": 1, "distance": 1999 },
+      { "stationCode": "ANVT", "stationName": "Anand Vihar Terminal", "arrivalTime": "10:50", "departureTime": "10:50", "platform": 1, "distance": 2427 }
+    ]
+  },
+  {
+    "id": "20502",
+    "trainName": "Agartala Tejas Rajdhani Return",
+    "trainNumber": "20502",
+    "source": "ANVT",
+    "destination": "AGTL",
+    "duration": "45:40",
+    "days": ["W"],
+    "route": [
+      { "stationCode": "ANVT", "stationName": "Anand Vihar Terminal", "arrivalTime": "19:50", "departureTime": "19:50", "platform": 1, "distance": 0 },
+      { "stationCode": "CNB", "stationName": "Kanpur Central", "arrivalTime": "00:35", "departureTime": "00:40", "platform": 1, "distance": 428 },
+      { "stationCode": "DDU", "stationName": "Pt Deen Dayal Upadhyaya Jn", "arrivalTime": "04:42", "departureTime": "04:52", "platform": 1, "distance": 776 },
+      { "stationCode": "PPTA", "stationName": "Patliputra Jn", "arrivalTime": "07:55", "departureTime": "08:05", "platform": 1, "distance": 988 },
+      { "stationCode": "BJU", "stationName": "Barauni Jn", "arrivalTime": "10:45", "departureTime": "10:55", "platform": 1, "distance": 1096 },
+      { "stationCode": "KIR", "stationName": "Katihar Jn", "arrivalTime": "14:40", "departureTime": "14:50", "platform": 1, "distance": 1277 },
+      { "stationCode": "KNE", "stationName": "Kishanganj", "arrivalTime": "16:20", "departureTime": "16:22", "platform": 1, "distance": 1373 },
+      { "stationCode": "NJP", "stationName": "New Jalpaiguri Jn", "arrivalTime": "18:25", "departureTime": "18:35", "platform": 1, "distance": 1460 },
+      { "stationCode": "NCB", "stationName": "New Cooch Behar", "arrivalTime": "20:50", "departureTime": "20:52", "platform": 1, "distance": 1586 },
+      { "stationCode": "NOQ", "stationName": "New Alipurduar", "arrivalTime": "21:18", "departureTime": "21:20", "platform": 1, "distance": 1605 },
+      { "stationCode": "KOJ", "stationName": "Kokrajhar", "arrivalTime": "22:30", "departureTime": "22:32", "platform": 1, "distance": 1679 },
+      { "stationCode": "NBQ", "stationName": "New Bongaigaon Jn", "arrivalTime": "23:15", "departureTime": "23:17", "platform": 1, "distance": 1707 },
+      { "stationCode": "RNY", "stationName": "Rangiya Jn", "arrivalTime": "01:05", "departureTime": "01:07", "platform": 1, "distance": 1816 },
+      { "stationCode": "GHY", "stationName": "Guwahati", "arrivalTime": "02:40", "departureTime": "02:55", "platform": 1, "distance": 1861 },
+      { "stationCode": "HJI", "stationName": "Hojai", "arrivalTime": "05:35", "departureTime": "05:37", "platform": 1, "distance": 2027 },
+      { "stationCode": "MBG", "stationName": "Maibang", "arrivalTime": "08:40", "departureTime": "08:42", "platform": 1, "distance": 2104 },
+      { "stationCode": "NHLG", "stationName": "New Haflong", "arrivalTime": "10:15", "departureTime": "10:17", "platform": 1, "distance": 2135 },
+      { "stationCode": "BPB", "stationName": "Badarpur Jn", "arrivalTime": "12:00", "departureTime": "12:10", "platform": 1, "distance": 2206 },
+      { "stationCode": "NKMG", "stationName": "New Karimganj Jn", "arrivalTime": "12:45", "departureTime": "12:47", "platform": 1, "distance": 2223 },
+      { "stationCode": "DMR", "stationName": "Dharmanagar", "arrivalTime": "13:58", "departureTime": "14:00", "platform": 1, "distance": 2287 },
+      { "stationCode": "ABSA", "stationName": "Ambassa", "arrivalTime": "15:28", "departureTime": "15:30", "platform": 1, "distance": 2360 },
+      { "stationCode": "AGTL", "stationName": "Agartala", "arrivalTime": "17:30", "departureTime": "17:30", "platform": 1, "distance": 2427 }
+    ]
+  }
+]

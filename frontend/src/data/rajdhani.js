@@ -1,0 +1,22 @@
+export const rajdhaniRoutes = [
+  { id: 1, name: "Mumbai – New Delhi (Tejas)", numbers: "12951 / 12952", codes: "MMCT – NDLS" },
+  { id: 2, name: "Mumbai – Nizamuddin (August Kranti)", numbers: "12953 / 12954", codes: "MMCT – NZM" },
+  { id: 3, name: "Mumbai CSMT – Nizamuddin", numbers: "22221 / 22222", codes: "CSMT – NZM" },
+  { id: 4, name: "Howrah – New Delhi (via Gaya)", numbers: "12301 / 12302", codes: "HWH – NDLS" },
+  { id: 5, name: "Howrah – New Delhi (via Patna)", numbers: "12305 / 12306", codes: "HWH – NDLS" },
+  { id: 6, name: "Sealdah – New Delhi", numbers: "12313 / 12314", codes: "SDAH – NDLS" },
+  { id: 7, name: "Dibrugarh – New Delhi", numbers: "12423 / 12424", codes: "DBRG – NDLS" },
+  { id: 8, name: "KSR Bengaluru – Nizamuddin", numbers: "22691 / 22692", codes: "SBC – NZM" },
+  { id: 9, name: "Chennai Central – Nizamuddin", numbers: "12433 / 12434", codes: "MAS – NZM" },
+  { id: 10, name: "TVM – Nizamuddin", numbers: "12431 / 12432", codes: "TVC – NZM" },
+  { id: 11, name: "Madgaon – Nizamuddin", numbers: "22413 / 22414", codes: "MAO – NZM" },
+  { id: 12, name: "Secunderabad – Nizamuddin", numbers: "12437 / 12438", codes: "SC – NZM" },
+  { id: 13, name: "Bhubaneswar – New Delhi (Tejas)", numbers: "20817 / 20818", codes: "BBS – NDLS" },
+  { id: 14, name: "Patna – New Delhi (Tejas)", numbers: "12309 / 12310", codes: "RJPB – NDLS" },
+  { id: 15, name: "Ranchi – New Delhi (via Bokaro)", numbers: "20839 / 20840", codes: "RNC – NDLS" },
+  { id: 16, name: "Ranchi – New Delhi (via Chopan)", numbers: "12453 / 12454", codes: "RNC – NDLS" },
+  { id: 17, name: "Jammu Tawi – New Delhi", numbers: "12425 / 12426", codes: "JAT – NDLS" },
+  { id: 18, name: "Ahmedabad (Sabarmati) – New Delhi", numbers: "12957 / 12958", codes: "SBIB – NDLS" },
+  { id: 19, name: "Bilaspur – New Delhi", numbers: "12441 / 12442", codes: "BSP – NDLS" },
+  { id: 20, name: "Agartala – Anand Vihar (Tejas)", numbers: "20501 / 20502", codes: "AGTL – ANVT" }
+];
